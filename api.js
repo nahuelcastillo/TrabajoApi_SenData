@@ -10,7 +10,7 @@ btt.addEventListener("click", function(){
     const Vlname = document.getElementById("lname").value;
     const Vdate = document.getElementById("date").value;
 
-    data.nombre = Vlname;
+    data.nombre = Vname;
     data.apellido = Vlname;
     data.date = Vdate;
 
@@ -22,3 +22,4 @@ btt.addEventListener("click", function(){
     .catch(error => console.error("Error", error))
     .then(Response => console.log(data, Response))
 })
+
